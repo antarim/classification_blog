@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load render_bundle from webpack_loader %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Blog</title>
+    <base href="/" />
+    <style>
+        html, body{
+            min-height: 100%;
+            background-color: #f4f6f8;
+        }
+    </style>
+</head>
+<body>
+<div id="root"></div>
+
+{% render_bundle 'frontend' %}
+</body>
+</html>

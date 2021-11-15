@@ -6,6 +6,11 @@ name = "pypi"
 [packages]
 django = "*"
 psycopg2 = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+django-cors-headers = "*"
+django-webpack-loader = "==1.4.1"
+requests = "*"
 
 [dev-packages]
 
