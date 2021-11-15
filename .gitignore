@@ -4,8 +4,11 @@
 *.pyc
 __pycache__/
 local_settings.py
-db.sqlite3
-db.sqlite3-journal
-media
+*.sqlite3
+*.sqlite3-journal
+
 
 .idea/
+node_modules/
+frontend/static/frontend/
+webpack-stats.json
