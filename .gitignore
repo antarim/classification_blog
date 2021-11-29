@@ -10,4 +10,3 @@ local_settings.py
 
 .idea/
 node_modules/
-webpack-stats.json
